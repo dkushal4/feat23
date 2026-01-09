@@ -1,0 +1,19 @@
+inputSet:
+  name: temp
+  identifier: temp
+  orgIdentifier: default
+  projectIdentifier: dkushal_Playground
+  pipeline:
+    identifier: feat23
+    stages:
+      - stage:
+          identifier: fds
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: Wait_1
+                    type: Wait
+                    spec:
+                      duration: 10s
