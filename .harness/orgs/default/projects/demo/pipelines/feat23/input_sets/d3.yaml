@@ -1,0 +1,30 @@
+inputSet:
+  name: d3
+  identifier: d3
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: feat23
+    stages:
+      - stage:
+          identifier: dsa
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: Wait_1
+                    type: Wait
+                    spec:
+                      duration: <+input>
+      - stage:
+          identifier: dd
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: Wait_1
+                    type: Wait
+                    spec:
+                      duration: 10s
